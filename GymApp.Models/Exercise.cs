@@ -5,15 +5,15 @@ using System.Text;
 
 namespace GymApp.Models
 {
-    // this is the first model for the database
-    // used to set the target muscle group
-    public class Category
+   public class Exercise
     {
         [Key]
         public int Id { get; set; }
-        [Display(Name="Category Name")]
+        [Display(Name = "Exercise Name")]
         [Required]
         [MaxLength(50)]
-        public string Name { get; set; }
+        public String Name { get; set; }
+
+        
     }
 }

@@ -15,5 +15,6 @@ namespace GymApp.DataAccess.Data
         }
 
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Exercise> Exercises { get; set; }
     }
 }
